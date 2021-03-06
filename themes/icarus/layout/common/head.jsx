@@ -54,7 +54,6 @@ module.exports = class extends Component {
             default: fontcdn('Nanum+Gothic&display=swap', 'css2'),
             cyberpunk: fontcdn('Oxanium:wght@300;400;600&family=Roboto+Mono', 'css2')
         };
-        console.log(fontCssUrl.default)
 
         let hlTheme, images;
         if (highlight && highlight.enable === false) {

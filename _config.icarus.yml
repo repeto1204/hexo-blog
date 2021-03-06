@@ -108,7 +108,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/repeto1204'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -121,9 +121,10 @@ footer:
             url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/repeto1204'
 # Article related configurations
 article:
+    thumbnail: true
     # Code highlight settings
     highlight:
         # Code highlight themes
@@ -217,36 +218,36 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Handsome.J
         # Author title
-        author_title: Your title
+        author_title: Tech Blog
         # Author's current location
-        location: Your location
+        # location: Souel
         # URL or path to the avatar image
-        avatar: 
+        avatar: https://octodex.github.com/images/hula_loop_octodex03.gif
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/repeto1204'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+            # Github:
+            #     icon: fab fa-github
+            #     url: 'https://github.com/repeto1204'
+            # Facebook:
+            #     icon: fab fa-facebook
+            #     url: 'https://facebook.com'
+            # Twitter:
+            #     icon: fab fa-twitter
+            #     url: 'https://twitter.com'
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: 'https://dribbble.com'
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
