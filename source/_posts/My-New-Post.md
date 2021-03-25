@@ -1,6 +1,10 @@
 ---
 title: My New Post
 date: 2021-02-28 13:46:42
+categories:
+  - lang
+  - javascript
+tags: test tag
 ---
 
 # Markdown For Typora
@@ -15,7 +19,7 @@ date: 2021-02-28 13:46:42
 ### Paragraph and line breaks
 
 <!--more-->
-
+![](/images/og_image.png)
 A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by two or more blank lines. In Typora, you only need one blank line (press `Return` once) to create a new paragraph.
 
 Press `Shift` + `Return` to create a single line break. Most other markdown parsers will ignore single line breaks, so in order to make other markdown parsers recognize your line break, you can leave two spaces at the end of the line, or insert `<br/>`.
@@ -267,10 +271,6 @@ Typora will also automatically link standard URLs. e.g: www.google.com.
 
 Images have similar syntax as links, but they require an additional `!` char before the start of the link. The syntax for inserting an image looks like this:
 
-
-![Alt text](/path/to/img.jpg)
-
-![Alt text](/path/to/img.jpg "Optional title")
 
 
 You are able to use drag & drop to insert an image from an image file or your web browser. You can modify the markdown source code by clicking on the image. A relative path will be used if the image that is added using drag & drop is in same directory or sub-directory as the document you're currently editing.
