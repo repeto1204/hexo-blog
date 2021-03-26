@@ -40,7 +40,12 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+# 포스트 별 asset 저장 폴더 생성 여부
+post_asset_folder: true
+# hexo-renderer-marked 3.0의 기능으로 마크 다운 내부에서 이미지를 추가할 수 있도록 하는 기능
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 highlight:
@@ -55,6 +60,7 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
