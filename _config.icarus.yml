@@ -8,7 +8,7 @@ logo:
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /img/favicon.webp
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -217,26 +217,26 @@ sidebar:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
     # Profile widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: profile
-        # Author name
-        author: Handsome.J
-        # Author title
-        author_title: Tech Blog
-        # Author's current location
-        # location: Souel
-        # URL or path to the avatar image
-        avatar: https://octodex.github.com/images/hula_loop_octodex03.gif
-        # Whether show the rounded avatar image
-        avatar_rounded: false
-        # Email address for the Gravatar
-        gravatar: 
-        # URL or path for the follow button
-        follow_link: 'https://github.com/repeto1204'
-        # Links to be shown on the bottom of the profile widget
-        social_links:
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: right
+    #     type: profile
+    #     # Author name
+    #     author: Handsome.J
+    #     # Author title
+    #     author_title: Tech Blog
+    #     # Author's current location
+    #     # location: Souel
+    #     # URL or path to the avatar image
+    #     avatar: https://octodex.github.com/images/hula_loop_octodex03.gif
+    #     # Whether show the rounded avatar image
+    #     avatar_rounded: false
+    #     # Email address for the Gravatar
+    #     gravatar: 
+    #     # URL or path for the follow button
+    #     follow_link: 'https://github.com/repeto1204'
+    #     # Links to be shown on the bottom of the profile widget
+    #     social_links:
             # Github:
             #     icon: fab fa-github
             #     url: 'https://github.com/repeto1204'
