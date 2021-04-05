@@ -76,15 +76,15 @@ const twoSum = (nums, target) => {
 
 정답이 항상 존재하고 하나만 존재한다는 가정이 있기 때문에 객체에 `target-nums[i]`를 key로 등록해두면
 
-합이 되는 숫자일 때 key 탐색 시 `undefined` 아닌값이 반환된다.
+합이 되는 숫자일 때 key 탐색 시 `undefined` 아닌 값이 반환된다.
 
-또 반환값은 두 수의 인덱스 배열이기 때문에  value에는 인덱스를 저장해두면 반환시 바로 쓸 수 있다.
+또 반환 값은 두 수의 인덱스 배열이기 때문에  value에는 인덱스를 저장해두면 반환 시 바로 쓸 수 있다.
 
 <br />
 
-**Example 1**의 경우 처음 `nums[i]`의 값은 2가되고 이 때 `numsMap[nums[i]]`는 `undefined`가 된다.
+**Example 1**의 경우 처음 `nums[i]`의 값은 2가 되고 이때 `numsMap[nums[i]]`는 `undefined`가 된다.
 
-이 때 `numsMap`에는 `target-nums[i] : i`가 저장된다.
+이때 `numsMap`에는 `target-nums[i] : i`가 저장된다.
 
 ```javascript
 const numsMap = {
@@ -94,4 +94,4 @@ const numsMap = {
 
 그리고 다음 `nums[i]`의 값은 7이고 `numsMap[nums[i]]`는 `undefined`이 아니기 때문에 합이 `target`이 되는 케이스이다.
 
-이 때 `numsMap[nums[i]]`의 값과 현재 숫자의 인덱스를 반환하면 두 수의 합이 `target`이 되는 인덱스 배열을 반환하게된다.
+이때 `numsMap[nums[i]]`의 값과 현재 숫자의 인덱스를 반환하면 두 수의 합이 `target`이 되는 인덱스 배열을 반환하게 된다.
