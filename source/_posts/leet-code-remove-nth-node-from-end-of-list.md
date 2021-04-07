@@ -1,7 +1,6 @@
 ---
 title: Remove Nth Node From End of List
-categories:
-  - algorithm
+categories: 
 tags:
   - leetcode
   - algorithm

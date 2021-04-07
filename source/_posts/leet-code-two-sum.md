@@ -1,7 +1,6 @@
 ---
 title: Two Sum
-categories:
-  - algorithm
+categories: 
 tags:
   - leetcode
   - algorithm
