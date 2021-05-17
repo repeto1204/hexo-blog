@@ -156,13 +156,13 @@ undefined + ''; // 'undefined'
 if('') {} // false
 if('1') {} // true
 if(null) {} // false
-if({}) {console.log('a')} // true
+if({}) {} // true
 
 // 논리 부정 연산자가 사용됐을 때
 if(!false) {} // true
 if(!'1') {} // false
-if(!undefined) {console.log('a')} // true
-if(![]) {console.log('a')} // false
+if(!undefined) {} // true
+if(![]) {} // false
 ```
 
 <br />
