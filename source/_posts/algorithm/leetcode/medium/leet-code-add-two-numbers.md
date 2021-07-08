@@ -2,6 +2,8 @@
 title: Add Two Numbers
 categories:
   - algorithm
+  - leetcode
+  - medium
 tags:
   - leetcode
   - algorithm

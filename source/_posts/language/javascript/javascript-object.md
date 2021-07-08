@@ -8,7 +8,7 @@ tags:
 toc: true
 cover: images/javascript_cover.jpg
 thumbnail: images/javascript_cover.jpg
-date: 2021-05-18 10:13:06
+date: 2021-07-04 10:13:06
 ---
 
 
@@ -172,7 +172,7 @@ myCustomer.getUserName(); // testName
 
 ```javascript
 const zoo = {
-    name: 'myZoo'
+    name: 'myZoo',
     lion: 5,
     monkey: 2
 }

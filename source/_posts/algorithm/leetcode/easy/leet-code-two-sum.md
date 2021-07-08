@@ -2,6 +2,8 @@
 title: Two Sum
 categories:
   - algorithm
+  - leetcode
+  - easy
 tags:
   - leetcode
   - algorithm

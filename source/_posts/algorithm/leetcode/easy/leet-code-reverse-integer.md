@@ -2,6 +2,8 @@
 title: Reverse Integer
 categories:
   - algorithm
+  - leetcode
+  - easy
 tags:
   - leetcode
   - algorithm

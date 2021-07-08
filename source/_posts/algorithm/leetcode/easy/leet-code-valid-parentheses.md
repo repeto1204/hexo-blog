@@ -2,6 +2,8 @@
 title: Valid Parentheses
 categories:
   - algorithm
+  - leetcode
+  - easy
 tags:
   - leetcode
   - algorithm

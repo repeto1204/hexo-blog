@@ -2,6 +2,8 @@
 title: Remove Nth Node From End of List
 categories:
   - algorithm
+  - leetcode
+  - medium
 tags:
   - leetcode
   - algorithm
