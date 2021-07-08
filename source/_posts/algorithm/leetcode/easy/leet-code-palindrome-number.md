@@ -26,7 +26,7 @@ date: 2021-07-08 17:41:22
 
 *2. s는 `(){}[]` 로만 구성된다.*
 
-[LeetCode 9. Valid Parentheses](https://leetcode.com/problems/palindrome-number/)
+[LeetCode 9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 **Example 1:**
 
