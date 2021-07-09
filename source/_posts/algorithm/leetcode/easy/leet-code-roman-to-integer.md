@@ -40,7 +40,7 @@ date: 2021-07-09 17:59:39
 
 *4. 정답의 경우는 오직 하나만 존재*
 
-[LeetCode 13. Roman to Integer](https://leetcode.com/problems/two-sum/)
+[LeetCode 13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 **Example 1:**
 
