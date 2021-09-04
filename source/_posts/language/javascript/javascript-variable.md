@@ -50,7 +50,7 @@ var result = 1 + 2;
 
 이렇게 이름을 붙임으로써 메모리에 접근할 수 있게 되고 메모리에 할당된 결괏값을 가져올 수 있다.
 
-![](../javascript-variable/console_result.jpg)
+![](images/javascript-variable/console_result.jpg)
 
 <br />
 
@@ -64,7 +64,7 @@ var myVar;
 
 만약 `var` 키워드로 변수를 선언하고 아무 값도 할당하지 않았다면 해당 변수에는 `undefined` 가 자동으로 할당된다.
 
-![](../javascript-variable/console_newvar.jpg)
+![](images/javascript-variable/console_newvar.jpg)
 
 <br />
 
@@ -75,7 +75,7 @@ var myVar;
 
 만약 변수를 선언하지 않고 사용하려고 한다면 **참조에러(ReferenceError)** 가 발생하고, 이는 식별자를 찾을 수 없을 때 발생하는 에러이다.
 
-![](../javascript-variable/console_referenceerror.jpg)
+![](images/javascript-variable/console_referenceerror.jpg)
 
 ---
 
@@ -102,7 +102,7 @@ var myVar = 'Hello World!';
 console.log(myVar);
 ```
 
-![](../javascript-variable/console_assignment.jpg)
+![](images/javascript-variable/console_assignment.jpg)
 
 변수의 선언은 런타임 이전에 실행되고 할당은 코드가 실행되는 런타임에 실행된다.
 
