@@ -11,7 +11,6 @@ thumbnail: images/javascript_cover.jpg
 date: 2021-12-26 20:20:21
 ---
 
-
 ---
 
 <!--more-->
@@ -251,7 +250,7 @@ __proto__접근자는 객체가 자신의 프로토타입에 접근 또는 프�
 
 prototype 프로퍼티는 생성자 함수가 자신이 생성할 객체를 할당하기 위해 사용한다.
 
-<br />
+---
 
 ## **리터럴 생성 객체**
 
@@ -296,7 +295,7 @@ myFunc();
 
 위 코드에서 확인할 수 있듯 생성자를 통한 함수는 블럭 내부의 value가 아닌 전역 환경의 value를 참조한다.
 
-<br />
+---
 
 ## **프로토타입 체인**
 
@@ -336,7 +335,7 @@ const myUser = new User(1);
 console.log(myUser.unknown); // undefined
 ```
 
-<br/>
+---
 
 ## **오버라이딩, 프로퍼티 섀도잉**
 
@@ -386,7 +385,7 @@ console.log(myUser.getUserId()); // TypeError: myUser.getUserId is not a functio
 
 직접 접근해서 삭제 후 인스턴스에서 해당 메서드를 호출하면 찾을 수 없다는 에러가 나온다.
 
-<br />
+---
 
 ## **프로토타입 교체**
 
@@ -494,7 +493,7 @@ console.log(User.prototype === Object.getPrototypeOf(myUser)); // true
 
 인스턴스를 통한 프로토타입 교체 시 생성자 함수 프로토타입과 인스턴스의 연결이 끊기기 때문에 인스턴스에 등록한 프로토타입과 같은 객체를 생성자 함수의 프로토타입에 등록해주어야 한다.
 
-<br />
+---
 
 ## **직접 상속**
 
@@ -542,7 +541,7 @@ console.log(obj.test); // test
 console.log(Object.getPrototypeOf(obj) === newPrototype); // true
 ```
 
-<br />
+---
 
 ## **프로퍼티 확인**
 
@@ -574,7 +573,7 @@ user.hasOwnProperty('name'); // false
 user.hasOwnProperty('hasOwnProperty'); // false
 ```
 
-<br />
+---
 
 ## **프로퍼티 열거**
 
@@ -671,6 +670,8 @@ const user = {
 console.log(Object.keys(user)); // ['id', 'password']
 ```
 
+<br />
+
 **Object.values**
 
 Object.values는 객체 자신의 열거 가능한 프로퍼티의 값을 배열 형태로 반환한다.
@@ -686,6 +687,8 @@ const user = {
 
 console.log(Object.values(user)); // [1, 1234]
 ```
+
+<br />
 
 **Object.entries**
 

@@ -11,7 +11,6 @@ thumbnail: images/javascript_cover.jpg
 date: 2021-08-18 01:15:42
 ---
 
-
 ---
 
 <!--more-->
@@ -211,8 +210,6 @@ var hoistingTest2 = function(x, y) {
 var 키워드는 호이스팅이 되지만 undefined로 초기화되어 참조 시 undefined가 반환된다.
 
 또 선언 이전에 호출을 시도하면 함수 객체가 할당되어있지 않아 에러가 발생한다.
-
-<br />
 
 ---
 

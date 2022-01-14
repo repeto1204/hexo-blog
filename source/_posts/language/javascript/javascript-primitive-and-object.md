@@ -11,8 +11,6 @@ thumbnail: images/javascript_cover.jpg
 date: 2021-07-20 21:49:06
 ---
 
-
-
 ---
 
 <!--more-->
